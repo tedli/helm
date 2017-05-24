@@ -1,5 +1,8 @@
 # Kubernetes Helm
 
+官方用的 glide 管理 golang 的依赖包，所以 repo 没有跟 vender，
+无论是看代码还是编译都不方便。加入 godep 的 vender。
+
 [![CircleCI](https://circleci.com/gh/kubernetes/helm.svg?style=svg)](https://circleci.com/gh/kubernetes/helm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kubernetes/helm)](https://goreportcard.com/report/github.com/kubernetes/helm)
 
